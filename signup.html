@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Sign up</title>
+    </head>
+    <style>
+        *{margin:0; padding: 0;}
+        body{
+            font-family: sans-serif;
+            background:url('file:///C:/Users/Faizur rahuman/Desktop/hai.jpg')no-repeat center center fixed;
+            background-size: cover; /* for IE9+, Safari 4.1+, Chrome 3.0+, Firefox 3.6+ */
+        -webkit-background-size: cover; /* for Safari 3.0 - 4.0 , Chrome 1.0 - 3.0 */
+        -moz-background-size: cover; /* optional for Firefox 3.6 */ 
+        -o-background-size: cover; /* for Opera 9.5 */
+        margin: 0; /* to remove the default white margin of body */
+        padding: 0; /* to remove the default white margin of body */
+        overflow:hidden;
+            
+        }
+        .form_wrap{width: 320px;background: #3e3d3d;padding: 40px 20px;box-sizing: border-box;position: fixed;left: 50%;top:50%; transform: translate(-50%,-50%);}
+       h1{text-align: center;color: #fff;font-weight: normal;margin-bottom: 20px;}
+       input{width: 100%;background: none;border: 1px solid #fff;border-radius: 3px;padding: 6px 15px;box-sizing: border-box;margin-bottom: 20px;font-size:16px;color: #fff;}
+       input[type="button"]{background: floralwhite;cursor: pointer;color: black;}
+       input[type ="button"]:hover{background:rgb(7, 233, 158);transition:  .6s;} 
+       ::placeholder{color:#fff;}    
+    </style>
+    <body>
+        <div class = "form_wrap">
+            <form>
+                <h1>Sign Up</h1>
+                <input type = "text"required placeholder="Name">
+                <input type="text" placeholder="Username">
+                <input type = "email" placeholder="Email">
+                <input type = "password" placeholder="Password">
+                <input type = "password" placeholder="Confirm Password">
+                <input type = "button" value = "Sign Up">
+                
+            </form>
+        </div>
+    </body>
+</html>
